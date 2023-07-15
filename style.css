@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+/* navbar styling*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ccd3f7;
+}
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #bcbfc0;
+    background-color: #0b1418;
+
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0b1418;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+    background-color: #0b1418;
+
+}
+
+.nav__links {
+    list-style: none;
+    background-color: #0b1418;
+
+}
+
+.nav__links li {
+    display: inline-block;
+    background-color: #0b1418;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+    background-color: #0b1418;
+
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #0088a9;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the height of the container to fill the viewport */
+  }
+  
+  .text {
+    text-align: center; /* Optional: Center the text horizontally within the container */
+  }
+
+
+  
+
+    
+
+
